@@ -9,5 +9,8 @@ console.log(nums);
 // 2. splice() 사용 : 시작할 인덱스, 삭제할 개수를 정해서 삭제한 요소 반환 -> 원본 배열 건듦
 console.log(nums.splice(0, 3));
 
-// 3. filter() 사용 : 콜백함수를 이용해서 특정 조건에 맞는 새로운 배열 반환 -> -> 원본 배열 안 건듦
+// 3. slice() 사용 : splice랑 똑같은데 원본 배열을 건들지 않음
+console.log(nums.slice(0, 3));
+
+// 4. filter() 사용 : 콜백함수를 이용해서 특정 조건에 맞는 새로운 배열 반환 -> -> 원본 배열 안 건듦
 console.log(nums.filter((i) => i !== 400 && i !== 500));
