@@ -5,3 +5,5 @@
 // 3) ""
 // 4) 0
 // 5) undefined
+
+// falsy : 0, '', NaN, false, null, undefined
