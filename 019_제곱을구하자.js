@@ -5,3 +5,9 @@ const num = prompt('숫자를 입력하세요.').split(' ');
 console.log(Math.pow(num[0], num[1]));
 
 // Math.pow(밑 값, 지수)
+
+// 다른 풀이
+
+const n = prompt('수를 입력하세요.').split(' ');
+
+console.log(Math.pow(parseInt(n[0], 10), parseInt(n[1], 10)));
