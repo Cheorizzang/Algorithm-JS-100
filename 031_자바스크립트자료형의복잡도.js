@@ -17,5 +17,4 @@
 
 // slice(begin, end) : end 미포함
 const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
-console.log(animals.slice(1, 4));
-// Expected output: Array ['bison', 'camel', 'duck']
+console.log(animals.slice(1, 4)); // ['bison', 'camel', 'duck']
