@@ -8,19 +8,19 @@ function check_prime(num) {
         const result = num % i;
         if (result === 0) {
             console.log('NO');
-            return false; // return true로 하면 아래의 코드가 실행이 안되는 이유?
+            return;
         }
     }
-    if (num === 1) {
+    if (num === '1') {
         console.log('NO');
-        return; // 위의 조건을 만족하면 해당 함수를 중단시킴
+        return;
     }
     console.log('YES');
 }
 
 check_prime(num);
 
-// return vs return flase
+// return
 // return; 시 undefined 반환
-// return의 값을 정확하게 전달해주는게 좋음
-// return : 함수 안에서 함수를 호출하는 쪽으로 데이터 전달(반환)
+// 조건을 만족하면 해당 함수에서 빠져나감
+// 함수 안에서 함수를 호출하는 쪽으로 데이터 전달(반환)
